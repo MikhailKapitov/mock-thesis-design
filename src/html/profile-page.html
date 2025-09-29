@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- Back -->
+        <button class="header-button">
+            <img class="headerbutton-image">
+        </button>
+
+        <span class="current-page-title">
+            Profile
+        </span>
+
+        <!-- Probably empty? -->
+        <button class="header-button">
+            <img class="header-button-image">
+        </button>
+
+    </header>
+
+    <content>
+
+        <div class="labeled-input labeled-input">
+            <div class="labeled-input-label">
+                Email:
+            </div>
+            <input class="labeled-input-input" disabled type="email" placeholder="example@example.example"
+                value="example@example.example">
+            <div class="labeled-input-error">
+            </div>
+        </div>
+
+        <div class="labeled-input">
+            <div class="labeled-input-label">
+                Data usage:
+            </div>
+            <select class="labeled-input-select">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <div class="labeled-input-error">
+            </div>
+        </div>
+
+        <div class="labeled-input">
+            <div class="labeled-input-label">
+                New password (Keep empty to leave unchanged):
+            </div>
+            <input class="labeled-input-input" type="password" placeholder="********">
+            <div class="labeled-input-error">
+            </div>
+        </div>
+
+        <div class="labeled-input">
+            <div class="labeled-input-label">
+                New password (Again):
+            </div>
+            <input class="labeled-input-input" type="password" placeholder="********">
+            <div class="labeled-input-error">
+            </div>
+        </div>
+
+        <div class="labeled-input">
+            <div class="labeled-input-label">
+                Current password:
+            </div>
+            <input class="labeled-input-input" type="password" placeholder="********">
+            <div class="labeled-input-error">
+            </div>
+        </div>
+
+        <button>
+            Save
+        </button>
+
+        <h2>
+            <a href="./login-page.html">Log out</a>?
+        </h2>
+
+    </content>
+
+    <footer>
+
+        <!-- About us and such -->
+        <button class="footer-button">
+            <img class="footer-button-image">
+        </button>
+
+        <!-- Record -->
+        <button class="footer-button">
+            <img class="footer-button-image">
+        </button>
+
+        <!-- Map -->
+        <button class="footer-button">
+            <img class="footer-button-image">
+        </button>
+
+        <!-- Stats -->
+        <button class="footer-button">
+            <img class="footer-button-image">
+        </button>
+
+        <!-- Profile -->
+        <button class="footer-button selected-footer-button">
+            <img class="footer-button-image">
+        </button>
+
+    </footer>
+
+</body>
+
+</html>
